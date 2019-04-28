@@ -30,22 +30,35 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+the biggest difference between .foreach and .map is that map will return a new array. .foreach will alter the array it is called on.
+
 2. What is the difference between a function and a method?
+
+In my own words a function is a standalone block of code the performs an action and a method is function that is attached to an object.
 
 3. What is closure?
 
+Closures are functions that refer to free variables. The function defined inside the closure remembers the environment in which it was created.
+
 4. Describe the four rules of the 'this' keyword.
 
+Window - When this is in the global scope it refers to the window object itself
+Implicit - whenever a function is called by a preceding dot, the object before that dot is this
+new - when a constructor function is used, this refers to the specific instance of the object that is created.
+Explicit - When call or apply are used, this is explicitly defined.
+
 5. Why do we need super() in an extended class?
+
+super is used to tell a parent's constructor to be concerned with the child's attributes and takes the place of the Object.create syntax.
 
 ## Project Set up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add PM as collaborator on Github.
+- [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
 - [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
 - [ ] You are now ready to build this project with your preferred IDE
 - [ ] Implement the project on your Branch, committing changes regularly.
