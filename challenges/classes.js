@@ -20,6 +20,9 @@ class CubeMaker extends CuboidMaker {
     constructor(cubeProp) {
         super(cubeProp);
     }
+    cubeSurfaceArea() {
+        return 6 * (this.length * this.width);
+    }
 }
 
 
@@ -43,3 +46,4 @@ console.log(cuboid.surfaceArea()); // 130
 
 // Stretch console logs
 console.log(cube.volume());
+console.log(cube.cubeSurfaceArea());
